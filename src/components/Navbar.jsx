@@ -11,6 +11,7 @@ export function Navbar() {
     { to: "/products", label: "Products" },
     { to: "/science", label: "Science" },
     { to: "/quality", label: "Quality" },
+    { to: "/guide", label: "Buyer's Guide" },
     { to: "/about", label: "About" },
     { to: "/contact", label: "Contact" },
   ];
