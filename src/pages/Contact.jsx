@@ -121,14 +121,15 @@ export default function Contact() {
               {[
                 ["📧","Email Us","sales@purecolostrum.co","For product enquiries and quotations"],
                 ["📦","Free Samples","48h dispatch","CoA, TDS and MSDS included"],
-                ["🌍","Export Markets","USA, EU, UK, UAE, Australia","We handle all documentation"],
-                ["🔬","Quality Assurance","Every batch tested","IgG, microbial, heavy metals"],
+                ["🇮🇳","India — Manufacturing","GMP Certified Facility, India","Direct manufacturer · All 6 grades"],
+                ["🇺🇸","USA — Warehouse","13825 W Business Center Drive, Suite B\nGreen Oaks, IL 60045, USA","Fast dispatch for North America · 25% & 30% IgG in stock"],
+                ["🌍","Export Markets","USA, EU, UK, UAE, Australia","We handle all export documentation"],
               ].map(([icon, title, value, desc]) => (
                 <div key={title} style={{ background: "white", border: "1px solid #e4e6eb", borderRadius: 12, padding: "16px 18px", display: "flex", gap: 14, alignItems: "flex-start" }}>
                   <div style={{ width: 40, height: 40, borderRadius: 10, background: "#e7f0fd", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, flexShrink: 0 }}>{icon}</div>
                   <div>
                     <div style={{ fontSize: 10, fontWeight: 600, color: "#94a3b8", letterSpacing: 1, textTransform: "uppercase", marginBottom: 2 }}>{title}</div>
-                    <div style={{ fontSize: 13, fontWeight: 600, color: "#1c1e21", marginBottom: 2 }}>{value}</div>
+                    <div style={{ fontSize: 13, fontWeight: 600, color: "#1c1e21", marginBottom: 2, whiteSpace: "pre-line" }}>{value}</div>
                     <div style={{ fontSize: 11, color: "#64748b" }}>{desc}</div>
                   </div>
                 </div>
