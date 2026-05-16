@@ -12,6 +12,7 @@ export function Navbar() {
     { to: "/science", label: "Science" },
     { to: "/quality", label: "Quality" },
     { to: "/guide", label: "Buyer's Guide" },
+    { to: "/blog", label: "Blog" },
     { to: "/about", label: "About" },
     { to: "/contact", label: "Contact" },
   ];
