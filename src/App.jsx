@@ -6,6 +6,8 @@ import Products from "./pages/Products.jsx";
 import Science from "./pages/Science.jsx";
 import Quality from "./pages/Quality.jsx";
 import Guide from "./pages/Guide.jsx";
+import Blog from "./pages/Blog.jsx";
+import BlogPost from "./pages/BlogPost.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import "./index.css";
@@ -23,6 +25,8 @@ export default function App() {
             <Route path="/quality" element={<Quality/>}/>
             <Route path="/guide" element={<Guide/>}/>
             <Route path="/buyers-guide" element={<Guide/>}/>
+            <Route path="/blog" element={<Blog/>}/>
+            <Route path="/blog/:slug" element={<BlogPost/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="*" element={
               <div style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 12 }}>
