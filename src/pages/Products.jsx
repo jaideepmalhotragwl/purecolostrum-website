@@ -30,7 +30,7 @@ export default function Products() {
               <span>🇮🇳</span><span style={{ fontSize:11, color:"white" }}>India — We are the manufacturer</span>
             </div>
             <div style={{ display:"flex", alignItems:"center", gap:6, background:"rgba(255,255,255,0.12)", border:"1px solid rgba(255,255,255,0.2)", borderRadius:20, padding:"5px 14px" }}>
-              <span>🇺🇸</span><span style={{ fontSize:11, color:"white" }}>USA — We distribute from Chicago warehouse</span>
+              <span>🇺🇸</span><span style={{ fontSize:11, color:"white" }}>USA — We distribute from Lee, MA &amp; Fresno, CA warehouses</span>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function Products() {
                     {p.origin.includes("US") && (
                       <div style={{ background:"#dcfce7", border:"1px solid #bbf7d0", borderRadius:8, padding:"8px 12px" }}>
                         <div style={{ fontSize:10, fontWeight:600, color:"#166534", marginBottom:2 }}>🇺🇸 US Stock Available</div>
-                        <div style={{ fontSize:10, color:"#15803d" }}>Fast dispatch from Chicago, IL warehouse for North America</div>
+                        <div style={{ fontSize:10, color:"#15803d" }}>Fast dispatch from Lee, MA &amp; Fresno, CA warehouses for North America</div>
                       </div>
                     )}
                     <div style={{ fontSize:11, color:"#64748b" }}>10kg / 20kg kraft bags with PE liner. Custom packaging available.</div>
@@ -127,7 +127,7 @@ export default function Products() {
               <span style={{ fontSize:28 }}>🇺🇸</span>
               <div>
                 <div style={{ fontSize:13, fontWeight:600, color:"#1c1e21", marginBottom:4 }}>US Origin — We Are the Distributor</div>
-                <div style={{ fontSize:12, color:"#64748b", lineHeight:1.7 }}>Selected grades (25% and 30% IgG) available from our Chicago, IL warehouse. Ideal for brands needing domestic US-origin material with shorter lead times and simpler customs.</div>
+                <div style={{ fontSize:12, color:"#64748b", lineHeight:1.7 }}>Selected grades (25% and 30% IgG) available from our Lee, MA and Fresno, CA warehouses. Ideal for brands needing domestic US-origin material with shorter lead times and simpler customs.</div>
               </div>
             </div>
           </div>
