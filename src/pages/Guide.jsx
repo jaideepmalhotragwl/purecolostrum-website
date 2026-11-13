@@ -172,7 +172,7 @@ export default function Guide() {
                   <div style={{ background:"#e7f0fd", border:"1px solid #b3cef7", borderRadius:10, padding:"20px" }}>
                     <div style={{ fontSize:20, marginBottom:8 }}>🇺🇸</div>
                     <div style={{ fontSize:13, fontWeight:700, color:"#1877F2", marginBottom:10 }}>USA Origin — Distributor</div>
-                    {["Domestic supply — no import duties","US country of origin for labels","3–7 day warehouse dispatch","25% and 30% IgG in stock","Simplified North America logistics","Chicago, IL warehouse"].map(t => <div key={t} style={{ fontSize:12, color:"#1877F2", marginBottom:5, display:"flex", gap:6 }}><span>✓</span>{t}</div>)}
+                    {["Domestic supply — no import duties","US country of origin for labels","3–7 day warehouse dispatch","25% and 30% IgG in stock","Simplified North America logistics","Lee, MA & Fresno, CA warehouses"].map(t => <div key={t} style={{ fontSize:12, color:"#1877F2", marginBottom:5, display:"flex", gap:6 }}><span>✓</span>{t}</div>)}
                   </div>
                 </div>
               </section>

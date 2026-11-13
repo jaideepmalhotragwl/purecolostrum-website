@@ -122,7 +122,7 @@ export default function Contact() {
                 ["📧","Email Us","sales@purecolostrum.co","For product enquiries and quotations"],
                 ["📦","Free Samples","48h dispatch","CoA, TDS and MSDS included"],
                 ["🇮🇳","India — Manufacturing","GMP Certified Facility, India","Direct manufacturer · All 6 grades"],
-                ["🇺🇸","USA — Warehouse","13825 W Business Center Drive, Suite B\nGreen Oaks, IL 60045, USA","Fast dispatch for North America · 25% & 30% IgG in stock"],
+                ["🇺🇸","USA — Warehouses","705 Pleasant Street, Lee, MA 01238, USA\n2855 S East Ave, Fresno, CA 93725-1908, USA","Fast dispatch for North America · 25% & 30% IgG in stock"],
                 ["🌍","Export Markets","USA, EU, UK, UAE, Australia","We handle all export documentation"],
               ].map(([icon, title, value, desc]) => (
                 <div key={title} style={{ background: "white", border: "1px solid #e4e6eb", borderRadius: 12, padding: "16px 18px", display: "flex", gap: 14, alignItems: "flex-start" }}>
